@@ -17,6 +17,14 @@ define(function(require, exports, module) {
     var Easing = {
 
         /**
+         * @property linear
+         * @static
+         */
+        linear: function(t) {
+            return t;
+        },
+
+        /**
          * @property inQuad
          * @static
          */

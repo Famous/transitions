@@ -141,6 +141,7 @@ define(function(require, exports, module) {
     }
 
     function _setupDefinition(definition) {
+        /*eslint no-console: 0 */
         var defaults = SpringTransition.DEFAULT_OPTIONS;
         if (definition.period === undefined)       definition.period       = defaults.period;
         if (definition.dampingRatio === undefined) definition.dampingRatio = defaults.dampingRatio;
